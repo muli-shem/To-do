@@ -1,0 +1,62 @@
+body{
+    background-image: url("./bg-desktop-dark.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    letter-spacing: 1px;
+    align-items: center;
+    margin: 0 auto;
+}
+#page-banner{
+    background-color:rgb(77, 74, 114);
+    width: 100%;
+    max-width: 960px;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lig
+}
+#wrapper{
+    background-color:rgb(77, 74, 114);
+    width: 90%;
+    max-width: 960px;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid light;
+    margin: 0 auto;
+    
+}
+header{
+    background-image: url("./bg-desktop-dark.jpg");
+}
+#todo-list ul {
+    background-color:rgb(77, 74, 114);
+    list-style: none;
+    padding: 0;
+}
+#todo-list li{
+    padding: 20;
+    margin: 20px 10px;
+}
+.flex-row {
+    display: flex;
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.flex-row li {
+    margin-right: 10px; /* Add some space between items */
+}
+
+/* Optional: Adjust the spacing for the last item */
+.flex-row li:last-child {
+    margin-right: 0;
+}
+
